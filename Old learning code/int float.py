@@ -16,7 +16,9 @@ print(id(int_d))
 print ("____" * 15, '\n', '\n')
 
 
-int_b += 20 # int_b = int_b + 20
+int_b += 20 #int_b = int_b + 20
 print (int_c) 
 #modidying int_b creates new object, int_c is still pointing at the same integer
 #this proves they are all independent objects, not bound to each other
+
+int_e = int_a + int_b
